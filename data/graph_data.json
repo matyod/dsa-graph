@@ -1,0 +1,172 @@
+{
+  "vertices": [
+    {
+      "id": "A",
+      "label": "Entrance",
+      "x": "",
+      "y": "",
+      "neighbors": [["P", 4]]
+    },
+    {
+      "id": "Q",
+      "label": "Exit",
+      "x": "",
+      "y": "",
+      "neighbors": [["D", 6]]
+    },
+    {
+      "id": "B",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["C", 12],
+        ["P", 14]
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["B", 12],
+        ["D", 28]
+      ]
+    },
+    {
+      "id": "D",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["C", 28],
+        ["E", 12],
+        ["M", 28],
+        ["Q", 6]
+      ]
+    },
+    {
+      "id": "E",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["D", 12],
+        ["F", 14]
+      ]
+    },
+    {
+      "id": "F",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["E", 14],
+        ["G", 14]
+      ]
+    },
+    {
+      "id": "G",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["F", 14],
+        ["H", 12]
+      ]
+    },
+    {
+      "id": "H",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["G", 12],
+        ["I", 28],
+        ["N", 28]
+      ]
+    },
+    {
+      "id": "I",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["H", 28],
+        ["J", 12]
+      ]
+    },
+    {
+      "id": "J",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["I", 12],
+        ["K", 14]
+      ]
+    },
+    {
+      "id": "K",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["J", 14],
+        ["L", 14]
+      ]
+    },
+    {
+      "id": "L",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["K", 14],
+        ["M", 12]
+      ]
+    },
+    {
+      "id": "M",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["L", 12],
+        ["D", 28]
+      ]
+    },
+    {
+      "id": "N",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["H", 28],
+        ["O", 12]
+      ]
+    },
+    {
+      "id": "O",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["N", 12],
+        ["P", 14]
+      ]
+    },
+    {
+      "id": "P",
+      "label": "Path vertex",
+      "x": "",
+      "y": "",
+      "neighbors": [
+        ["O", 14],
+        ["B", 14],
+        ["A", 4]
+      ]
+    }
+  ]
+}
